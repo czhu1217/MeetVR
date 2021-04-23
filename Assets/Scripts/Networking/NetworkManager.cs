@@ -97,8 +97,7 @@ public class NetworkManager : MonoBehaviourPunCallbacks
     {
         PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "Avatar"), Vector3.zero, Quaternion.identity, 0);
 
-        var go = PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CameraWrapper"), Vector3.zero, Quaternion.identity, 0);
-        go.name = "CameraWrapper";
+
         if(Application.platform == RuntimePlatform.Android)
         {
             PhotonNetwork.Instantiate(Path.Combine("PhotonPrefabs", "CustomHandLeft"), Vector3.zero, Quaternion.identity, 0);

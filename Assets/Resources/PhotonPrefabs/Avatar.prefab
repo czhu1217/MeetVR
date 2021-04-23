@@ -224,7 +224,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba8c4fcee3d5e564cbb569a19b203912, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPath_vr: OVRCameraRig/TrackingSpace/CenterEyeAnchor
+  parentPath_vr: VRonly/OVRCameraRig/TrackingSpace/CenterEyeAnchor
+  parentPath_pc: PConly/Player/Camera
   alternativePath: OtherCharacters
 --- !u!114 &1605438430
 MonoBehaviour:
